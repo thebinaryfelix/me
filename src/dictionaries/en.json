@@ -1,0 +1,37 @@
+{
+  "theme": {
+    "light": "light theme",
+    "dark": "dark theme",
+    "toggle": "Toggle to"
+  },
+  "home": {
+    "profile": {
+      "pictureAlt": "Profile picture",
+      "occupation": "Front-End Developer",
+      "location": "Brasilia, Brazil",
+      "contactButton": "Contact",
+      "contactTooltip": "Email copied!"
+    },
+    "about": {
+      "title": "About me",
+      "content": "I'm a senior frontend developer with more than 5 years of experience working on: web application development, UX/UI principles, web accessibility, testing, pipelines setup, observability and app optimization.\n\nMentor for junior developers and web technologies enthusiast. I also venture into the cybersecurity area.\n\nAs for hobbies, I enjoy astronomy and photography.",
+      "pictureAlt": "Mateus in a workshop about intro to HTML"
+    },
+    "skills": {
+      "title": "Skills",
+      "frontend": { "title": "Frontend" },
+      "backend": { "title": "Backend" },
+      "databases": { "title": "Databases" },
+      "devops": { "title": "DevOps" },
+      "tools": { "title": "Tools" },
+      "mobile": { "title": "Mobile" },
+      "testing": { "title": "Testing" },
+      "others": { "title": "Others" }
+    },
+    "footer": {
+      "copyright": {
+        "text": "Made by Mateus Félix."
+      }
+    }
+  }
+}

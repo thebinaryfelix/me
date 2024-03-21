@@ -6,17 +6,17 @@ This is my personal website, to display my profile and contact information, as w
 
 ## Running the project
 
-1. Install [pnpm](https://pnpm.io/installation) locally on your machine
+1. Install [npm](https://www.npmjs.com/package/npm) locally on your machine
 2. Install the dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 3. Run the development server:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -52,7 +52,7 @@ Want to contribute by adding a new language? Follow the steps below:
 
 ### Package management
 
-- [pnpm](https://pnpm.io/)
+- [npm](https://www.npmjs.com/)
 
 ### Frameworks
 

@@ -58,13 +58,13 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
       >
         <div className="backface-hidden w-full h-full flex flex-col justify-center align-middle items-center">
           {Icon}
-          <p className="font-medium mt-3 text-primary-dark dark:text-primary-light">
+          <p className="font-medium mt-3 text-primary-dark dark:text-primary-light md:text-lg">
             {title}
           </p>
         </div>
 
         <div className="absolute top-0 left-0  p-4 my-rotate-y-180 backface-hidden w-full h-full overflow-hidden flex justify-center items-center text-primary-dark dark:text-primary-light">
-          <p className="text-center text-xs">{tags.join(", ")}</p>
+          <p className="text-center text-xs md:text-base lg:text-lg">{tags.join(", ")}</p>
         </div>
       </div>
     </div>

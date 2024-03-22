@@ -4,7 +4,7 @@ import { sendGAEvent } from "@next/third-parties/google";
 import React, { useEffect, useRef, useState } from "react";
 
 // To avoid a bug related with backface-visibility on Firefox we have to bypass this CSS property
-// First identifying the navigator
+// First identifying the browser
 // Reference: https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browsers
 // @ts-ignore
 const isFirefox = typeof InstallTrigger !== 'undefined';

@@ -12,7 +12,7 @@ export const AboutMe = ({ dictionary }: TranslationProps) => (
       </p>
 
       <p
-        className="text-text-light dark:text-text-dark"
+        className="text-text-light dark:text-text-dark lg:text-lg"
         style={{ whiteSpace: "pre-line" }}
       >
         {dictionary.home.about.content}

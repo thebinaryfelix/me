@@ -36,7 +36,7 @@ Supported languages:
 
 - 🇺🇸 English: `/en`
 - 🇧🇷 Portuguese: `/pt`
-- 🇪🇸 Spanish: `/en`
+- 🇪🇸 Spanish: `/es`
 
 Want to contribute by adding a new language? Follow the steps below:
 

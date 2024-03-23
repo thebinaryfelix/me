@@ -1,5 +1,6 @@
 "use client";
 
+import { useIsClient } from "@/client/hooks";
 import { sendGAEvent } from "@next/third-parties/google";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -18,6 +19,8 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
   const [isIntersecting, setIntersecting] = useState(false);
 
   const [rotateCard, setRotateCard] = useState(false);
+
+  const { isClient } = useIsClient()
 
   const ref = useRef(null);
 
@@ -50,6 +53,10 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
       value: `rotate-${rotateCard ? "back" : "front"}`,
     });
   };
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <div

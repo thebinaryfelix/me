@@ -21,8 +21,7 @@ export const CopyEmailButton = ({
     const clipboard = new Clipboard(".copy-email-button");
     clipboard.on("success", () => {
       setShowSuccess(true);
-      sendGAEvent({
-        event: "copyEmailButton",
+      sendGAEvent("event", "copy_email", {
         page: "home",
         action: "clipboard",
         value: "success",
@@ -45,11 +44,9 @@ export const CopyEmailButton = ({
       <Button
         data-clipboard-text={CONTACT_EMAIL}
         onClick={() =>
-          sendGAEvent({
-            event: "copyEmailButton",
+          sendGAEvent("event", "contact_button", {
             page: "home",
             action: "onClick",
-            value: "clicked",
           })
         }
         className="copy-email-button w-full h-[40px] rounded-xl bg-button-light dark:bg-button-dark mt-4 text-sm text-text-light dark:text-text-dark"
@@ -59,9 +56,8 @@ export const CopyEmailButton = ({
 
       <div className="relative">
         <span
-          className={`w-24 flex justify-center text-emerald-600 dark:text-emerald-400 text-xs absolute top-1 right-0 ${
-            showSuccess ? "" : "hidden"
-          }`}
+          className={`w-24 flex justify-center text-emerald-600 dark:text-emerald-400 text-xs absolute top-1 right-0 ${showSuccess ? "" : "hidden"
+            }`}
         >
           {successFeedback}
         </span>

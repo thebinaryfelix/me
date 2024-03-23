@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { TranslationProps } from "@/types/translation";
+import "./AboutMe.css";
 
 export const AboutMe = ({ dictionary }: TranslationProps) => (
   <section
     id="about-me"
-    className="mt-9 grid gap-3 grid-cols-1 md:grid-cols-2 md:py-4"
+    className="mt-9 grid gap-3 grid-cols-1 md:grid-cols-2 md:py-4 "
   >
-    <div id="about-me">
+    <div className="transition-all transform translate-x-[-100%] opacity-0 animate-slide-in-ltr">
       <p className="text-2xl mb-3 text-text-light dark:text-text-dark font-medium">
         {dictionary.home.about.title}
       </p>
@@ -25,7 +26,7 @@ export const AboutMe = ({ dictionary }: TranslationProps) => (
         height={450}
         alt={dictionary.home.about.pictureAlt}
         src="/mateus_lecture.webp"
-        className="rounded-lg hidden md:block"
+        className="rounded-lg hidden md:block transition-all transform translate-x-[100%] opacity-0 animate-slide-in-rtl"
       />
     </div>
   </section>

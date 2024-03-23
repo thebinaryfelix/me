@@ -1,16 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { sendGAEvent } from "@next/third-parties/google";
 import { TranslationProps } from "@/types/translation";
 import { DarkThemeIcon } from "../CopyEmailButton/DarkTheme.icon";
 import { LightThemeIcon } from "../CopyEmailButton/LightTheme.icon";
+import { useIsClient } from "@/client/hooks";
 
 export const ToggleThemeButton = ({ dictionary }: TranslationProps) => {
   const { theme, setTheme } = useTheme();
 
-  const [mounted, setMounted] = useState(false);
+  const { isClient } = useIsClient();
 
   const isDark = theme === "dark";
 
@@ -20,16 +20,13 @@ export const ToggleThemeButton = ({ dictionary }: TranslationProps) => {
     setTheme(newTheme);
   };
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
+  if (!isClient) {
     return null;
   }
 
-  const buttonLabel = `${dictionary.theme.toggle} ${dictionary.theme[isDark ? "light" : "dark"]
-    }`;
+  const buttonLabel = `${dictionary.theme.toggle} ${
+    dictionary.theme[isDark ? "light" : "dark"]
+  }`;
 
   return (
     <button

@@ -1,13 +1,8 @@
 "use client";
 
-import { useIsClient } from "@/client/hooks";
+import { useBrowser, useIsClient } from "@/client/hooks";
 import { sendGAEvent } from "@next/third-parties/google";
 import React, { useEffect, useRef, useState } from "react";
-
-// To avoid a bug related with backface-visibility on Firefox we have to bypass this CSS property
-// Reference: https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browsers
-// @ts-ignore
-const isFirefox = typeof InstallTrigger !== "undefined";
 
 interface SkillCardProps {
   Icon: React.JSX.Element;
@@ -21,6 +16,8 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
   const [rotateCard, setRotateCard] = useState(false);
 
   const { isClient } = useIsClient();
+
+  const { isFirefox } = useBrowser();
 
   const ref = useRef(null);
 

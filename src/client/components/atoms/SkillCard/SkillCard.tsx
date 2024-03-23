@@ -44,8 +44,7 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
 
   const handleToggleRotate = () => {
     setRotateCard((state) => !state);
-    sendGAEvent({
-      event: "toggleRotateSkillCard",
+    sendGAEvent("event", "rotate_skill_card", {
       page: "home",
       action: `click:${title}`,
       value: `rotate-${rotateCard ? "back" : "front"}`,

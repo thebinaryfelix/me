@@ -16,7 +16,7 @@ export const ToggleThemeButton = ({ dictionary }: TranslationProps) => {
 
   const handleToggleTheme = () => {
     const newTheme = isDark ? "light" : "dark";
-    sendGAEvent({ event: "toggle_theme", theme: newTheme });
+    sendGAEvent("event", "toggle_theme", { theme: newTheme });
     setTheme(newTheme);
   };
 
@@ -28,9 +28,8 @@ export const ToggleThemeButton = ({ dictionary }: TranslationProps) => {
     return null;
   }
 
-  const buttonLabel = `${dictionary.theme.toggle} ${
-    dictionary.theme[isDark ? "light" : "dark"]
-  }`;
+  const buttonLabel = `${dictionary.theme.toggle} ${dictionary.theme[isDark ? "light" : "dark"]
+    }`;
 
   return (
     <button

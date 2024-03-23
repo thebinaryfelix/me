@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
-    "@next/third-parties": "^14.1.4",
+    "@next/third-parties": "^14.2.0-canary.34",
     "clipboard": "^2.0.11",
     "negotiator": "^0.6.3",
     "next": "14.1.3",

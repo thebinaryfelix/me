@@ -6,6 +6,7 @@ import { SkillCard } from "./SkillCard";
 import { useIsClient } from "@/client/hooks";
 
 jest.mock("@/client/hooks", () => ({
+  ...jest.requireActual("@/client/hooks"),
   useIsClient: jest.fn(() => ({ isClient: true })),
 }));
 

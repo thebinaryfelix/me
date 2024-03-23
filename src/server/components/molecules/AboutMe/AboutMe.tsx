@@ -5,7 +5,7 @@ import "./AboutMe.css";
 export const AboutMe = ({ dictionary }: TranslationProps) => (
   <section
     id="about-me"
-    className="mt-9 grid gap-3 grid-cols-1 md:grid-cols-2 md:py-4 "
+    className="mt-9 grid gap-3 grid-cols-1 md:grid-cols-2 md:py-4 overflow-hidden"
   >
     <div className="transition-all transform translate-x-[-100%] opacity-0 animate-slide-in-ltr">
       <p className="text-2xl mb-3 text-text-light dark:text-text-dark font-medium">

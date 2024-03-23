@@ -75,6 +75,7 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
       }}
     >
       <div
+        data-testid="skill-card"
         className={`relative preserve-3d ${rotateCardClass} w-full h-[115px] duration-1000 p-4 rounded-lg border-solid border-[1px] border-[#C9C9C9] dark:border-[#334D66] bg-[#E8EDF2] dark:bg-[#1A2633]`}
       >
         <div

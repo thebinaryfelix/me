@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from '@/client'
 import { Locale, i18n } from '../../i18n-config'
 import { getDictionary } from '../../getDictionary'
+import '/node_modules/flag-icons/css/flag-icons.min.css'
 import '../globals.css'
 
 const mainFont = Inter({ subsets: ['latin'] })

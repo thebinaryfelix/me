@@ -1,13 +1,13 @@
-import { SkillCard } from "@/client/components";
-import { getSkills } from "./skills";
-import { TranslationProps } from "@/types/translation";
+import { SkillCard } from '@/client/components'
+import { getSkills } from './skills'
+import { TranslationProps } from '@/types/translation'
 
 export const SkillCards = ({ dictionary }: TranslationProps) => {
-  const skills = getSkills(dictionary);
+  const skills = getSkills(dictionary)
 
   return (
-    <section id="skills" className="mt-8">
-      <p className="text-2xl text-text-light dark:text-text-dark font-medium">
+    <section id='skills' className='mt-8'>
+      <p className='text-2xl text-text-light dark:text-text-dark font-medium'>
         {dictionary.home.skills.title}
       </p>
 
@@ -19,5 +19,5 @@ export const SkillCards = ({ dictionary }: TranslationProps) => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}

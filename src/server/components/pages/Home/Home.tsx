@@ -1,5 +1,5 @@
-import { TranslationProps } from "@/types/translation";
-import { AboutMe, Footer, Profile, SkillCards } from "@/server";
+import { TranslationProps } from '@/types/translation'
+import { AboutMe, Footer, Profile, SkillCards } from '@/server'
 
 export const Home = ({ dictionary }: TranslationProps) => (
   <>
@@ -11,4 +11,4 @@ export const Home = ({ dictionary }: TranslationProps) => (
 
     <Footer dictionary={dictionary} />
   </>
-);
+)

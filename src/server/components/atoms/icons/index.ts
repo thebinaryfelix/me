@@ -1,2 +1,2 @@
-export * from "./DarkTheme.icon";
-export * from "./LightTheme.icon";
+export * from './DarkTheme.icon'
+export * from './LightTheme.icon'

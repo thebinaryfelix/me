@@ -55,7 +55,7 @@ export const LanguageSelector = () => {
           type='button'
           id='language-dropdown'
           onClick={handleToggleDropdown}
-          className='inline-flex justify-center w-full rounded-md border border-gray-300 dark:border-slate-500 shadow-sm px-4 py-2 text-sm font-medium text-slate-800 dark:text-gray-400 hover:bg-slate-100 hover:dark:bg-slate-600 focus:outline-none'
+          className='flex justify-center items-center w-full rounded-md border border-gray-300 dark:border-slate-500 shadow-sm px-4 py-2 text-sm font-medium text-slate-800 dark:text-gray-400 hover:bg-slate-100 hover:dark:bg-slate-600 focus:outline-none'
         >
           <span className={`fi fi-${currentLanguage.flagCode} mr-1`} />
           {currentLanguage?.name}{' '}

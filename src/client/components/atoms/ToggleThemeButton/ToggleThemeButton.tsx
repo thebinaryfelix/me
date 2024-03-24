@@ -3,8 +3,7 @@
 import { useTheme } from "next-themes";
 import { sendGAEvent } from "@next/third-parties/google";
 import { TranslationProps } from "@/types/translation";
-import { DarkThemeIcon } from "../CopyEmailButton/DarkTheme.icon";
-import { LightThemeIcon } from "../CopyEmailButton/LightTheme.icon";
+import { DarkThemeIcon, LightThemeIcon } from "@/server/components";
 import { useIsClient } from "@/client/hooks";
 
 export const ToggleThemeButton = ({ dictionary }: TranslationProps) => {

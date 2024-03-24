@@ -46,7 +46,8 @@ Want to contribute by adding a new language? Follow the steps below:
 4. Create a new file inside `src/dictionaries` using the base [UTS Locale Identifiers](https://www.unicode.org/reports/tr35/tr35-59/tr35.html#Identifiers). i.e.: For Portuguese would just be `pt.json`, no need for `pt-BR` or `pt-PT`
 5. Go to `src/i18n-config.ts` and add the new language to the `i18n.locales` array
 6. Import the new file in `src/getDictionary.ts`
-7. Open a pull request with the new file
+7. Update the `languages` array inside the LanguageSelector.tsx component to allow the new language to be selected by the user
+8. Open a pull request with the new file
 
 ## 🤖 Technologies
 

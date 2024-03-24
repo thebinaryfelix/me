@@ -1,1 +1,1 @@
-export * from "./SkillCards";
+export * from './SkillCards'

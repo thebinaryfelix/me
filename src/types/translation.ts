@@ -1,55 +1,55 @@
 export interface TranslationProps {
   dictionary: {
     theme: {
-      light: string;
-      dark: string;
-      toggle: string;
-    };
+      light: string
+      dark: string
+      toggle: string
+    }
     home: {
       profile: {
-        pictureAlt: string;
-        occupation: string;
-        location: string;
-        contactButton: string;
-        contactTooltip: string;
-      };
+        pictureAlt: string
+        occupation: string
+        location: string
+        contactButton: string
+        contactTooltip: string
+      }
       about: {
-        title: string;
-        content: string;
-        pictureAlt: string;
-      };
+        title: string
+        content: string
+        pictureAlt: string
+      }
       skills: {
-        title: string;
+        title: string
         frontend: {
-          title: string;
-        };
+          title: string
+        }
         backend: {
-          title: string;
-        };
+          title: string
+        }
         databases: {
-          title: string;
-        };
+          title: string
+        }
         devops: {
-          title: string;
-        };
+          title: string
+        }
         tools: {
-          title: string;
-        };
+          title: string
+        }
         mobile: {
-          title: string;
-        };
+          title: string
+        }
         testing: {
-          title: string;
-        };
+          title: string
+        }
         others: {
-          title: string;
-        };
-      };
+          title: string
+        }
+      }
       footer: {
         copyright: {
-          text: string;
-        };
-      };
-    };
-  };
+          text: string
+        }
+      }
+    }
+  }
 }

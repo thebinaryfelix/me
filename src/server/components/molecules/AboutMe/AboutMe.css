@@ -23,11 +23,11 @@
 }
 
 .animate-slide-in-ltr {
-  animation: slide-in-ltr 1s ease-out forwards;
+  animation: slide-in-ltr 800ms ease-out forwards;
   animation-delay: 300ms;
 }
 
 .animate-slide-in-rtl {
-  animation: slide-in-rtl 1s ease-out forwards;
-  animation-delay: 1300ms;
+  animation: slide-in-rtl 800ms ease-out forwards;
+  animation-delay: 600ms;
 }

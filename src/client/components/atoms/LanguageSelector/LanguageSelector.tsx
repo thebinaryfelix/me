@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react'
 const languages = [
   { code: 'en', name: 'en', flagCode: 'us' },
   { code: 'pt', name: 'pt-BR', flagCode: 'br' },
+  { code: 'es', name: 'es', flagCode: 'es' },
 ]
 
 export const LanguageSelector = () => {

@@ -7,9 +7,9 @@ export const SkillCards = ({ dictionary }: TranslationProps) => {
 
   return (
     <section id='skills' className='mt-8'>
-      <p className='text-2xl text-text-light dark:text-text-dark font-medium'>
+      <h3 className='text-2xl text-text-light dark:text-text-dark font-medium'>
         {dictionary.home.skills.title}
-      </p>
+      </h3>
 
       <div
         className={`grid grid-cols-2 gap-3 mt-6 md:grid-cols-3 lg:grid-cols-4`}

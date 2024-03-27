@@ -66,6 +66,7 @@ export const SkillCard = ({ Icon, tags, title }: SkillCardProps) => {
       ref={ref}
       onClick={handleToggleRotate}
       onTouchMove={handleToggleRotate}
+      data-testid={`skill-card-${title}`}
       className={`cursor-pointer group perspective transition-opacity ease-in duration-[700ms] ${opacity}`}
       style={{
         transitionDelay: '100ms',

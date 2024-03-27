@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
+    "test:e2e": "playwright test --ui",
+    "test:e2e:ci": "playwright test",
+    "report:e2e": "playwright show-report",
     "lint": "next lint",
     "test:watch": "jest --watch",
     "prepare": "husky"
@@ -25,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
+    "@playwright/test": "^1.42.1",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",

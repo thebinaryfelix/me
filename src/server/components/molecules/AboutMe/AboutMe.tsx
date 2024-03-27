@@ -8,9 +8,9 @@ export const AboutMe = ({ dictionary }: TranslationProps) => (
     className='mt-9 grid gap-3 grid-cols-1 md:grid-cols-2 md:py-4 overflow-hidden'
   >
     <div className='transition-all transform translate-x-[-100%] opacity-0 animate-slide-in-ltr'>
-      <p className='text-2xl mb-3 text-text-light dark:text-text-dark font-medium'>
+      <h2 className='text-2xl mb-3 text-text-light dark:text-text-dark font-medium'>
         {dictionary.home.about.title}
-      </p>
+      </h2>
 
       <p
         className='text-text-light dark:text-text-dark lg:text-lg'
@@ -22,6 +22,7 @@ export const AboutMe = ({ dictionary }: TranslationProps) => (
 
     <div className='flex justify-end'>
       <Image
+        priority
         width={450}
         height={450}
         alt={dictionary.home.about.pictureAlt}

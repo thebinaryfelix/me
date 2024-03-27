@@ -21,6 +21,42 @@ npm run dev
 
 2. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Running the tests
+
+### Unit tests with Jest
+
+Run all tests:
+
+```bash
+npm run test
+```
+
+Run all tests in watch mode:
+
+```bash
+npm run test:watch
+```
+
+### E2E tests with Playwright
+
+Run with `UI mode` enabled:
+
+```bash
+npm run test:e2e
+```
+
+Run all tests in `CI mode`:
+
+```bash
+npm run test:e2e:ci
+```
+
+To see the tests results in your browser:
+
+```bash
+npm run report:e2e
+```
+
 ## Features
 
 ### 🌎 Internationalization (i18n) Routing

@@ -62,8 +62,8 @@ Want to contribute by adding a new language? Follow the steps below:
 
 ### Testing
 
-- [Jest](https://jestjs.io/)
-- [Testing Library](https://testing-library.com/)
+- Unit testing: [Jest](https://jestjs.io/) + [Testing Library](https://testing-library.com/)
+- E2E testing: [Playwright](https://playwright.dev/)
 
 ### Monitoring
 

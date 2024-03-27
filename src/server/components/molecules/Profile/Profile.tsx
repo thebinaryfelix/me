@@ -16,12 +16,12 @@ export const Profile = ({ dictionary }: TranslationProps) => (
     </div>
 
     <div className='flex flex-col items-center'>
-      <p
+      <h1
         className='font-bold text-2xl mt-4 text-text-light dark:text-text-dark'
         aria-label='Mateus Felix'
       >
         Mateus Félix
-      </p>
+      </h1>
       <p className='text-base text-secondary-light dark:text-secondary-dark'>
         {dictionary.home.profile.occupation}
       </p>

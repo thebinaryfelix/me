@@ -14,7 +14,7 @@
     },
     "about": {
       "title": "About me",
-      "content": "I'm a senior frontend developer with more than 5 years of experience working on: web application development, UX/UI principles, web accessibility, testing, pipelines setup, observability and app optimization.\n\nMentor for junior developers and web technologies enthusiast. I also venture into the cybersecurity area.\n\nAs for hobbies, I enjoy astronomy and photography.",
+      "content": "I'm a senior frontend developer with more than 6 years of experience working on: web application development, UX/UI principles, web accessibility, testing, pipelines setup, observability and app optimization.\n\nMentor for junior developers and web technologies enthusiast. I also venture into the cybersecurity area.\n\nAs for hobbies, I enjoy astronomy and photography.",
       "pictureAlt": "Mateus in a workshop about intro to HTML"
     },
     "skills": {
@@ -30,7 +30,7 @@
     },
     "footer": {
       "copyright": {
-        "text": "Made by Mateus Félix."
+        "text": "Made by"
       }
     }
   }

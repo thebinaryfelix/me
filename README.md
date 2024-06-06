@@ -39,6 +39,12 @@ npm run test:watch
 
 ### E2E tests with Playwright
 
+Install Playwright locally on you machine:
+
+```bash
+npx playwright install
+```
+
 Run with `UI mode` enabled:
 
 ```bash

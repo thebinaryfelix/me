@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { TranslationProps } from '@/types/translation'
-import { CopyEmailButton } from '@/client'
+import type { TranslationProps } from '@/types/translation'
+import { SocialIcons } from '@/client'
 
 export const Profile = ({ dictionary }: TranslationProps) => (
   <section id='profile'>
@@ -29,13 +29,7 @@ export const Profile = ({ dictionary }: TranslationProps) => (
         {dictionary.home.profile.location}
       </p>
 
-      <div className='w-full sm:w-1/2 lg:w-1/5'>
-        <CopyEmailButton
-          successFeedback={dictionary.home.profile.contactTooltip}
-        >
-          <strong>{dictionary.home.profile.contactButton}</strong>
-        </CopyEmailButton>
-      </div>
+      <SocialIcons />
     </div>
   </section>
 )

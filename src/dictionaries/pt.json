@@ -14,7 +14,7 @@
     },
     "about": {
       "title": "Quem sou eu",
-      "content": "Sou um desenvolvedor front-end sênior com mais de 5 anos de experiência atuando em: desenvolvimento de aplicações web, princípios de UX/UI, acessibilidade na web, testes, configuração de pipelines, observabilidade e otimização de aplicações.\n\nMentor de desenvolvedores juniores e entusiasta de tecnologias web. Também me aventuro na área de cibersegurança.\n\nComo hobby, gosto de astronomia e fotografia.",
+      "content": "Sou um desenvolvedor front-end sênior com mais de 6 anos de experiência atuando em: desenvolvimento de aplicações web, princípios de UX/UI, acessibilidade na web, testes, configuração de pipelines, observabilidade e otimização de aplicações.\n\nMentor de desenvolvedores juniores e entusiasta de tecnologias web. Também me aventuro na área de cibersegurança.\n\nComo hobby, gosto de astronomia e fotografia.",
       "pictureAlt": "Mateus em workshop sobre introdução ao HTML"
     },
     "skills": {
@@ -30,7 +30,7 @@
     },
     "footer": {
       "copyright": {
-        "text": "Feito por Mateus Félix."
+        "text": "Feito por"
       }
     }
   }

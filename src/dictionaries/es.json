@@ -14,7 +14,7 @@
     },
     "about": {
       "title": "Quien soy",
-      "content": "Soy un desarrollador front-end senior con más de 5 años de experiencia trabajando en: desarrollo de aplicaciones web, principios de UX/UI, accesibilidad web, pruebas, configuración de pipelines, observabilidad y optimización de aplicaciones.\n\nMentor de desarrolladores junior y entusiasta de tecnologías web. También me aventuro en el área de ciberseguridad.\n\nComo pasatiempo, me gusta la astronomía y la fotografía.",
+      "content": "Soy un desarrollador front-end senior con más de 6 años de experiencia trabajando en: desarrollo de aplicaciones web, principios de UX/UI, accesibilidad web, pruebas, configuración de pipelines, observabilidad y optimización de aplicaciones.\n\nMentor de desarrolladores junior y entusiasta de tecnologías web. También me aventuro en el área de ciberseguridad.\n\nComo pasatiempo, me gusta la astronomía y la fotografía.",
       "pictureAlt": "Mateus en un taller sobre introducción a HTML"
     },
     "skills": {
@@ -28,6 +28,6 @@
       "testing": { "title": "Pruebas" },
       "others": { "title": "Otros" }
     },
-    "footer": { "copyright": { "text": "Hecho por Mateus Félix." } }
+    "footer": { "copyright": { "text": "Hecho por" } }
   }
 }

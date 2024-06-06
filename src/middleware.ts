@@ -28,7 +28,15 @@ export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
 
   // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
-  if (['/profile_img.webp', '/mateus_lecture.webp'].includes(pathname)) return
+  if (
+    [
+      '/profile_img.webp',
+      '/mateus_lecture.webp',
+      '/github150.webp',
+      '/linkedin150.webp',
+    ].includes(pathname)
+  )
+    return
 
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = i18n.locales.every((locale) => {
